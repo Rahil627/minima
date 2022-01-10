@@ -4,12 +4,14 @@
 
 // center everything! lol
 mixin center-everything() {
+  {{% if site.center.everything }}
   @if {{ site.center.everything }} == true { // get from "site vars" declared in the config file
     line-align: center;
   }
   @else {
     // @else shown as syntax demo, no need for it here
   }
+  {{% endif }}
 }
 
 
