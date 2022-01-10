@@ -1,5 +1,5 @@
 # my custom vars
-center-everything: true
+#dont-center-everything: false
 #footer:
 #  left:
 
