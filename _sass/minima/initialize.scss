@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+//rahil627's custom shit
+mixin center($is-centered) {
+  font-size: $size;
+  @if $is-centered == true {
+    line-height: $size;
+  } @else {
+    // @else shown as syntax demo, no need for it here
+  }
+}
+
+
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
