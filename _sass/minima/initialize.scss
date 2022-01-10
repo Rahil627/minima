@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+// rahil627: try to get "site vars" from the config file to these scss vars
+//:root {
+//  --color-accent: {{ settings.color_accent }};
+  //site.center-everything
+//}
+
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
