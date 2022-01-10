@@ -1,13 +1,14 @@
----
-# add empty yaml to enable liquid
----
+// this caused an error
+//---
+//# add empty yaml to enable liquid
+//---
 
 @charset "utf-8";
 
 //rahil627's custom shit
 
 // center everything! lol
-mixin center-everything() {
+/*mixin center-everything() {
   {{% if site.center.everything }}
   @if {{ site.center.everything }} == true { // get from "site vars" declared in the config file
     line-align: center;
@@ -16,7 +17,7 @@ mixin center-everything() {
     // @else shown as syntax demo, no need for it here
   }
   {{% endif }}
-}
+}*/
 
 
 // Define defaults for each variable.
