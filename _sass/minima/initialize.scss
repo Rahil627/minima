@@ -63,3 +63,9 @@ $on-large:         $on-laptop !default;
   "minima/layout",           // Defines structure and style based on CSS selectors.
   "minima/custom-styles"     // Hook to override existing styles.
 ;
+
+// this seems impossible
+// see https://stackoverflow.com/questions/13879042/import-in-if-statement-in-sass#13879344
+// if site.center.everything (liquid)
+// @import "minima/center-everything"
+// endif (liquid)
