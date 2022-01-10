@@ -6,7 +6,7 @@
   <body>
     {%- include header.html -%}
     <!-- liquid doesn't have a not operator? wtf?? -->
-    <main class="page-content" aria-label="Content" {{% if site.dont-center-everything %}} {{% else %}} style="text-align: center;" {{% endif %}}>
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
