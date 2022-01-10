@@ -2,8 +2,8 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .page-header {
-   @include center
+   @include center-everything
 }
 .page-content{
-   @include center 
+   @include center-everything
 }
