@@ -6,7 +6,7 @@
   <body>
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content" {{% if site.center-everything %}} style="text-align: center;" {{% endif %}}>
+    <main class="page-content" aria-label="Content" {{% if site.dont-center-everything %}} {{% else %}} style="text-align: center;" {{% endif %}}>
       <div class="wrapper">
         {{ content }}
       </div>
