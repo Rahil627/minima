@@ -3,8 +3,8 @@
 //rahil627's custom shit
 
 // center everything! lol
-mixin center() {
-  @if site.center == true { // get from "site vars" declared in the config file
+mixin center-everything() {
+  @if {{ site.center.everything }} == true { // get from "site vars" declared in the config file
     line-align: center;
   }
   @else {
