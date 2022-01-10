@@ -1,11 +1,13 @@
 @charset "utf-8";
 
 //rahil627's custom shit
-mixin center($is-centered) {
-  font-size: $size;
-  @if $is-centered == true {
-    line-height: $size;
-  } @else {
+
+// center everything! lol
+mixin center() {
+  @if site.center == true { // get from "site vars" declared in the config file
+    line-align: center;
+  }
+  @else {
     // @else shown as syntax demo, no need for it here
   }
 }
