@@ -4,10 +4,9 @@
   {%- include head.html -%}
 
   <body>
-
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main class="page-content" aria-label="Content" {{% if site.center-everything %}} style="text-align: center;" {{% endif %}}>
       <div class="wrapper">
         {{ content }}
       </div>
