@@ -21,10 +21,10 @@ ul, ol, dl, figure,
 
 
 p + ul { //the problem is on the p tag
-    margin-top: -$spacing-unit;
+    margin-top: -$spacing-unit / 2;
 }
 p + ol {
-    margin-top: -$spacing-unit;
+    margin-top: -$spacing-unit / 2;
 }
 
 
