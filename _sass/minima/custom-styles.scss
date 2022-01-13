@@ -10,7 +10,8 @@
 }
 
 /*
-// just get rid of all that padding!
+// from the main scss file
+// the padding after the p tag is annyoing...
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -19,44 +20,12 @@ ul, ol, dl, figure,
 }
 */
 
-
-p + ul { //the problem is on the p tag
+p + ul { //on the ul tag, when it comes after a p
     margin-top: -$spacing-unit / 2;
 }
 p + ol {
     margin-top: -$spacing-unit / 2;
 }
-
-
-/*
-ul, ol {
-  margin-left: $spacing-unit;
-}
-*/
-/*
-// inline on the p tag is kinda annoying...
-p, ul, ol {
-  margin-left: $spacing-unit; //snatched from the main scss file... but overrides, doesn't inherit this?
-  display: inline;
-}
-*/
-
-/*
-// EPIC FAIL!
-ul, ol {
-    // one of these should work...
-    padding: 0;
-    margin 0;
-    margin-top: 0;
-    //font-size: 0px;
-}
-*/
-/*
-li {
-  font-size: 16px;
-  //font-size: $base-font-size; //error?
-}
-*/
 
 // tried to center everything, eventually did this in-line, in the layouts
 /*
