@@ -12,6 +12,10 @@ ul, ol {
     font-size: 0px;
 }
 
+li {
+  font-size: $base-font-size;
+}
+
 // tried to center everything, eventually did this in-line, in the layouts
 /*
 .page-header{
