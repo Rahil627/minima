@@ -9,10 +9,14 @@
    text-align: center; 
 }
 
-p + ul {
+p + ul { //ol?
     margin-top: $base-line-height;
 }
-
+/*
+ul, ol {
+  margin-left: $spacing-unit;
+}
+*/
 /*
 // inline on the p tag is kinda annoying...
 p, ul, ol {
