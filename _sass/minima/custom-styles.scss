@@ -4,7 +4,7 @@
 // todo: can't use liquid templating here?
 
 // try to remove the extra space that comes above a list
-ul {
+ul, ol {
     // one of these should work...
     //margin-top: 0;
     display:block;
