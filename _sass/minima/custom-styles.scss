@@ -4,11 +4,11 @@
 // todo: can't use liquid templating here?
 
 // try to remove the extra space that comes above a list
-li {
+ul {
     // one of these should work...
     //margin-top: 0;
-    //display:block;
-    float:left;
+    display:block;
+    //float:left;
 }
 
 // tried to center everything, eventually did this in-line, in the layouts
