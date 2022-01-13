@@ -3,13 +3,14 @@
 
 // todo: can't use liquid templating here?
 
+// remove the extra space that comes above a list
 li {
     margin-top: 0;
     display:block;
 }
 
+// tried to center everything, eventually did this in-line, in the layouts
 /*
-// eventually did this in-line, in the layouts
 .page-header{
   text-align: center 
 }
