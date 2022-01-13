@@ -9,19 +9,24 @@
    text-align: center; 
 }
 
-/*
-// just get rid of this?
+
+// just get rid of all that padding!
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: 0; //$spacing-unit / 2;
 }
-*/
 
-p + ul { //ol?
+/*
+p + ul { //the problem is on the p tag
     margin-top: -$spacing-unit;
 }
+p + ol {
+    margin-top: -$spacing-unit;
+}
+*/
+
 /*
 ul, ol {
   margin-left: $spacing-unit;
