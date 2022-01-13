@@ -4,6 +4,8 @@
 // todo: can't use liquid templating here?
 
 // try to remove the extra space that comes above a list
+/*
+// EPIC FAIL!
 ul, ol {
     // one of these should work...
     padding: 0;
@@ -14,8 +16,9 @@ ul, ol {
 
 li {
   font-size: 16px;
-  //font-size: $base-font-size;
+  //font-size: $base-font-size; //error?
 }
+*/
 
 // tried to center everything, eventually did this in-line, in the layouts
 /*
