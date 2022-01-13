@@ -3,6 +3,11 @@
 
 // todo: can't use liquid templating here?
 
+li {
+    margin-top: 0;
+    display:block;
+}
+
 /*
 // eventually did this in-line, in the layouts
 .page-header{
