@@ -1,11 +1,17 @@
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-seo-tag
+# - jekyll-feed # i commented out the subscribe to feed button 
+
+
 # my custom vars
 #dont-center-everything: false
 #footer:
 #  left:
 
-#--
-
-
+# theme vars
 title: Your awesome title 
 author:
   name: GitHub User
@@ -23,9 +29,9 @@ minima:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
-  social_links:
-    twitter: jekyllrb
-    github:  jekyll
+  #social_links:
+    # twitter: jekyllrb
+    # github:  jekyll
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -59,10 +65,3 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-
-# Build settings
-theme: minima
-
-plugins:
-# - jekyll-feed # i commented out the subscribe to feed button
- - jekyll-seo-tag
