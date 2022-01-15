@@ -3,9 +3,19 @@
 
 // todo: can't use liquid templating here?
 
+// colors!!! yayyy~!~!~
 h1, h2, h3, h4, h5, h6 {
-  color: $header-color; 
+  color: $header-text-color; 
 }
+
+b, strong {
+  color: $bold-text-color;
+}
+
+i, em {
+  color: $italic-text-color; 
+}
+
 
 // try to remove the extra space that comes above a list
 .center {
