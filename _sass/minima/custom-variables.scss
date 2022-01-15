@@ -1,4 +1,6 @@
 // Placeholder to allow overriding predefined variables smoothly.
 
 // skin vars, used in the skin's scss file
-$header-text-color:            $text-color !default;
+$header-text-color: $text-color !default;
+$bold-text-color: $text-color !default;
+$italic-text-color: $text-color !default;
