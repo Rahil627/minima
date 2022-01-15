@@ -1,7 +1,46 @@
 @charset "utf-8";
 
+/*
+NEON PURPLE
+PMS: 246 C
+HEX COLOR: #C724B1;
+RGB: (199,36,177)
+CMYK: (27,89,0,0)
+NEON BLUE
+HEX COLOR: #4D4DFF;
+RGB: (77, 77, 255)
+CMYK: (70,70,0,0)
+NEON YELLOW
+PMS: 388 C
+HEX COLOR: #E0E722;
+RGB: (224,231,34)
+CMYK: (11,0,91,0)
+NEON ORANGE
+PMS: PMS 2010 C
+HEX COLOR: #FFAD00;
+RGB: (255,173,0)
+CMYK: (0,27,100,0)
+NEON RED
+PMS: 1795 C
+HEX COLOR: #D22730;
+RGB: (210,39,48)
+CMYK: (0,96,82,1)
+NEON FUSCHIA
+PMS: PMS 2385
+HEX COLOR: #DB3EB1;
+RGB: (219,62,177)
+CMYK: (23 83 0 0)
+NEON GREEN
+PMS: 802 C
+HEX COLOR: #44D62C;
+RGB: (68,214,44)
+CMYK: (51,0,85,0)
+*/
+
 // custom stuff on top
 $header-text-color      #FFAD00 !default; //neon orange
+$bold-text-color        #44D62C !default; //neon green
+$italic-text-color      #C724B1 !default; //neon purple
 
 // start with a copy of dark.scss
 $brand-color:           #999999 !default;
@@ -14,7 +53,7 @@ $text-color:            #bbbbbb !default;
 $background-color:      #181818 !default;
 $code-background-color: #212121 !default;
 
-$link-base-color:       #79b8ff !default;
+$link-base-color:       #79b8ff !default; //blue
 $link-visited-color:    $link-base-color !default;
 $link-hover-color:      $text-color !default;
 
