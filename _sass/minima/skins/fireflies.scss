@@ -1,6 +1,9 @@
-// start with a copy of dark.scss
 @charset "utf-8";
 
+// custom stuff on top
+$header-text-color      #bbbbbb !default;
+
+// start with a copy of dark.scss
 $brand-color:           #999999 !default;
 $brand-color-light:     lighten($brand-color, 5%) !default;
 $brand-color-dark:      darken($brand-color, 35%) !default;
