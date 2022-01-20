@@ -11,6 +11,11 @@ plugins:
 #footer:
 #  left:
 
+# convert newlines properly
+kramdown:
+  input: GFM
+  hard_wrap: true
+
 # theme vars
 title: Your awesome title 
 author:
