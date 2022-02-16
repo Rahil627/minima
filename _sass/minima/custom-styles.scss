@@ -15,6 +15,33 @@ b, strong {
 i, em {
   color: $italic-text-color; 
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	margin: 1.5em 0 1em 0;
+	line-height: 1em
+}
+
+// TODO: not so sure about this...
+h1 {
+	font-size: 1.625em
+}
+
+h2 {
+	font-size: 1.375em
+}
+
+h3 {
+	font-size: 1.125em
+}
+
+h4, h5, h6 {
+	font-size: 1em
+}
 
 
 // try to remove the extra space that comes above a list
